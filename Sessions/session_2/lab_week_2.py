@@ -1,5 +1,5 @@
 # Exercise 1: Comparison Operators
-
+# Demonstrates basic relational operations between two variables
 x = 5
 y = 4
 
@@ -12,14 +12,14 @@ print(x <= y)
 
 
 # Exercise 2: Logical Operators
-
+# Uses a logical AND condition to check if a value lies within a range
 age = 25
 is_in_age_range = age > 20 and age < 30
 print(is_in_age_range)
 
 
 # Exercise 3: if
-
+# Simple conditional assignment based on a threshold value
 age = 19
 age_group = "child"
 
@@ -30,7 +30,7 @@ print(f"The age group is {age_group}")
 
 
 # Exercise 4: if-else
-
+# Basic branching to classify wind conditions
 wind_speed = 30
 
 if wind_speed < 10:
@@ -40,7 +40,7 @@ else:
 
 
 # Exercise 5: if-elif-else
-
+# Multi-branch condition to categorize grades into performance levels
 grade = 55
 
 if grade < 50:
@@ -54,7 +54,7 @@ else:
 
 
 # Summary Task: Compare Temperatures
-
+# Compares two values and outputs equality status
 temperature1 = 25
 temperature2 = 30
 
@@ -65,7 +65,7 @@ else:
 
 
 # Lists
-
+# Demonstrates list access, slicing, modification, and extension
 city_list = ["Glasgow", "London", "Edinburgh"]
 
 print(city_list[2])
@@ -76,7 +76,7 @@ city_list[1] = "Birmingham"
 
 
 # List Summary Task
-
+# Covers common list operations including indexing, updating, membership, and slicing
 colours = ["red", "blue", "green"]
 
 print(colours)
@@ -95,7 +95,7 @@ print(selected_colours)
 
 
 # While Loop
-
+# Iterates with a condition-controlled loop
 i = 0
 while i < 5:
     print(i)
@@ -103,13 +103,13 @@ while i < 5:
 
 
 # For Loop
-
+# Iterates directly over elements in a list
 for city in city_list:
     print(city)
 
 
 # Range + Break
-
+# Demonstrates early loop termination using break
 for i in range(5):
     if i == 3:
         break
@@ -117,7 +117,7 @@ for i in range(5):
 
 
 # Continue
-
+# Skips a specific iteration using continue
 for i in range(5):
     if i == 2:
         continue
@@ -125,7 +125,7 @@ for i in range(5):
 
 
 # Even Numbers
-
+# Filters and prints even numbers using modulus operator
 numbers = list(range(1, 11))
 
 for num in numbers:
@@ -134,7 +134,7 @@ for num in numbers:
 
 
 # Sum of Squares
-
+# Accumulates the sum of squared values within a range
 sum_of_squares = 0
 
 for i in range(1, 6):
@@ -144,7 +144,7 @@ print(sum_of_squares)
 
 
 # Countdown
-
+# Decrements a counter until a stopping condition is reached
 countdown = 10
 
 while countdown > 0:
@@ -155,7 +155,7 @@ print("Complete!")
 
 
 # User Input Task 1
-
+# Takes user input and categorizes based on age ranges
 age = int(input("Enter your age: "))
 
 if age < 18:
@@ -167,7 +167,7 @@ else:
 
 
 # User Input Task 2
-
+# Converts temperature from Celsius to Fahrenheit and Kelvin
 celsius_input = float(input("Enter temperature in Celsius: "))
 
 degree_f = (celsius_input * 9/5) + 32
